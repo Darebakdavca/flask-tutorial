@@ -1,1 +1,5 @@
 source flask_venv/bin/activate
+
+flask --app flaskr run --debug 
+
+flask --app flaskr init-db
