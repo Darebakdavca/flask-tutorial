@@ -1,5 +1,7 @@
 source flask_venv/bin/activate
 
+# start a localhost server runnning on :5000
 flask --app flaskr run --debug 
 
+# initialize the database
 flask --app flaskr init-db
