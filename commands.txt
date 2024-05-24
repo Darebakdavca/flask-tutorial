@@ -8,3 +8,12 @@ flask --app flaskr init-db
 
 # install the project in the virtual environment (after creating the pyproject.toml file)
 pip install -e .
+
+# run test to examine coverage
+coverage run -m pytest
+
+# show coverage report
+coverage report
+
+#test your tests
+pytest
