@@ -5,3 +5,6 @@ flask --app flaskr run --debug
 
 # initialize the database
 flask --app flaskr init-db
+
+# install the project in the virtual environment (after creating the pyproject.toml file)
+pip install -e .
